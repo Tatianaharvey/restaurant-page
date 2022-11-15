@@ -17,7 +17,8 @@ h1 {
 }
 
 .background {
-    background: #faaa94 !important
+    background: #faaa94 !important;
+    opacity: 0.6;
 }
 
   /* header */
