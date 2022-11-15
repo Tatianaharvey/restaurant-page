@@ -1,0 +1,96 @@
+
+
+#content {
+    min-height: calc(100vh - 223px);
+    margin: 0 50px;
+    padding: 25px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/hero.jpg) no-repeat fixed center;
+    background-size: cover;
+  }
+
+  /* header */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: center;
+}
+  
+.nav-link {
+    padding-bottom: 3px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+  
+.nav-link:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+/* home */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-sep {
+    border-bottom: 1px solid #FFF;
+    width: 50px;
+    margin: 25px 0;
+}
+
+.home-headline {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    padding: 1rem;
+  }
+
+.home-subtitle {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+  }
+  
+.home-button {
+    padding: 12px 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #FFF;
+    border: 2px solid #FFF;
+    text-decoration: none;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: #FFF;
+    color: #000;
+    transition: all .3s;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    .menu-grid {
+      grid-template-columns: auto auto;
+    }
+}
+  
+@media screen and (max-width: 960px) {
+    #content {
+      margin: 0 25px;
+    }
+    .menu-grid {
+      grid-template-columns: auto;
+    }
+}
