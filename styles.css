@@ -17,7 +17,7 @@ h1 {
 }
 
 .background {
-    background: #AEC6CF !important
+    background: #faaa94 !important
 }
 
   /* header */
@@ -115,6 +115,51 @@ header .navigation {
 .menu-item p {
     margin: 10px 0 0;
 }
+
+
+/* Contact */
+.contact-headline {
+    margin-bottom: 25px;
+}
+
+.contact-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+  
+.contact-flex > div {
+    background-color: #FFF;
+    flex: 1 1 705px;
+    max-width: 705px;
+    padding: 25px;
+}
+  
+.contact-list {
+    text-align: left;
+}
+  
+.contact-working-hours {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-working-hours div:first-child {
+    width: 100px;
+  }
+  
+
+  
+.contact-working-hours p {
+    margin: 10px 0;
+}
+  
+.contact-working-hours p:first-child {
+    margin-top: 0px;
+}
+  
 
 
 
