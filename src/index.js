@@ -4,7 +4,7 @@ import contact from './contact';
 
 const render = (() => {
     const header = document.querySelector('header');
-    const navItems = ['home', 'menu', 'contacts'];
+    const navItems = ['home', 'menu', 'contact'];
   
     function renderHeader() {
       const nav = document.createElement('nav');
@@ -25,7 +25,7 @@ const render = (() => {
       const menuItems = document.querySelectorAll('.navigation a');
       const menuItemHome = menuItems[0];
       const menuItemMenu = menuItems[1];
-      const menuItemContacts = menuItems[2];
+      const menuItemContact = menuItems[2];
   
       function removeCurrentClass() {
         menuItems.forEach((element) => {
@@ -41,9 +41,9 @@ const render = (() => {
         } else if (event.target.id === 'menu' || event.target.className === 'home-button') {
           menu.render();
           menuItemMenu.classList.add('current');
-        } else if (event.target.id === 'contacts') {
-          contacts.render();
-          menuItemContacts.classList.add('current');
+        } else if (event.target.id === 'contact') {
+          contact.render();
+          menuItemContact.classList.add('current');
         }
       });
     }
