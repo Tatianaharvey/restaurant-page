@@ -1,5 +1,10 @@
-# restaurant-page
+📝 Description: A dynamically rendered restaurant homepage using Vanilla JS.
 
-A dynamically rendered restaurant homepage. 
+
+🛠️ Built with:
+
+- HTML
+- CSS
+- JavaScript
 
 hero photo from Unsplash by Kate Darmody
