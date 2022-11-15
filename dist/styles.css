@@ -12,7 +12,7 @@ h1 {
     margin: 0 50px;
     padding: 25px;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/hero.jpg) no-repeat fixed center;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/hero.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
