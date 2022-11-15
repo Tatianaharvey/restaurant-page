@@ -1,4 +1,11 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
 
 #content {
     min-height: calc(100vh - 223px);
@@ -7,7 +14,11 @@
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/hero.jpg) no-repeat fixed center;
     background-size: cover;
-  }
+}
+
+.background {
+    background: #AEC6CF !important
+}
 
   /* header */
 header {
@@ -50,7 +61,6 @@ header .navigation {
 
 .home-headline {
     color: #FFF;
-    font-family: 'Montserrat', sans-serif;
     font-size: 58px;
     padding: 1rem;
   }
@@ -77,6 +87,35 @@ header .navigation {
     color: #000;
     transition: all .3s;
 }
+
+/* menu */
+
+.menu-grid {
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    grid-template-columns: repeat(auto-fit, 340px);
+    gap: 25px;
+    text-align: left;
+}
+  
+.menu-category {
+    margin: 15px 0;
+}
+  
+
+.menu-item {
+    background-color: #FFF;
+    width: 340px;
+    height: 120px;
+    padding: 15px;
+}
+  
+  
+.menu-item p {
+    margin: 10px 0 0;
+}
+
 
 
 
